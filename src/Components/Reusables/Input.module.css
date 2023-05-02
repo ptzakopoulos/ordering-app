@@ -1,0 +1,19 @@
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+label {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  /* filter: drop-shadow(8px 10px 4px rgba(0, 0, 0, 0.4)); */
+}
+.loginInput {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.4);
+}

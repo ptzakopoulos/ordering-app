@@ -1,0 +1,24 @@
+.cart {
+  padding: 20px 50px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.cart > h1 {
+  font-weight: 400;
+}
+.productNumber {
+  width: 80px;
+  height: 60px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 68, 0);
+}
