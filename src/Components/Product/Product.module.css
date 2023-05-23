@@ -1,0 +1,62 @@
+.productContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.inputField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.valueButton {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+}
+.prodInfo {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.prodPrice,
+.prodQuantity {
+  width: 100px;
+  font-size: 25px;
+  border-left: 3px solid chocolate;
+  padding: 20px 10px;
+}
+.prodPrice::after {
+  content: " €";
+}
+.prodQuantity::before {
+  content: "x ";
+}
+
+.productHandler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.addToCart {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}

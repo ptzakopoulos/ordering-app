@@ -25,16 +25,19 @@ form {
   font-weight: 500;
   border: 2px solid transparent;
   box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
+  cursor: not-allowed;
   transition: border 0.2s linear, color 0.2s linear, background 0.2s linear,
     transform 0.1s linear, box-shadow 0.1s linear;
 }
-.loginButton:hover {
+.enabled {
+  cursor: pointer;
+}
+.enabled:hover {
   border: 2px solid white;
   background-color: transparent;
   color: white;
 }
-.loginButton:active {
+.enabled:active {
   transform: translate(5px, 5px);
   box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.4);
 }

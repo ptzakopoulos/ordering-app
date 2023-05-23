@@ -4,10 +4,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 200px;
+  padding: 30px 100px;
 }
 .title {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 900;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logout {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
 }
